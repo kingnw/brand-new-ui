@@ -1,0 +1,63 @@
+body {
+    background-color: #001f3f; /* Navy blue */
+    color: #ffffff; /* White text */
+}
+
+.navbar {
+    background-color: #000000; /* Black navbar */
+}
+
+.navbar .navbar-brand, .navbar .nav-link, .navbar .user-banner {
+    color: #ffffff; /* White text */
+}
+
+.card {
+    background-color: #1a1a1a; /* Dark card background */
+    color: #ffffff; /* White text */
+}
+
+.card .card-title, .card .card-text {
+    color: #ffffff;
+}
+
+.user-banner {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #004080; /* Dark blue */
+    border-color: #004080;
+}
+
+.btn-primary:hover {
+    background-color: #0059b3;
+    border-color: #0059b3;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Adjust autocomplete dropdown menu */
+.ui-autocomplete {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
